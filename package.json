@@ -1,6 +1,6 @@
 {
     "name": "images-compression",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Wrapper module for preserving directory structure when using imagemin",
     "type": "module",
     "exports": "./index.js",
@@ -8,16 +8,16 @@
         "node": ">=12.10.0"
     },
     "files": [
-        "index.js"
+        "LICENSE",
+        "README.md",
+        "index.js",
+        "lib/"
     ],
-    "directories": {
-        "lib": "lib"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/kovalev-alexey/images-compression.git"
     },
-    "author": "Alexey Kovalev",
+    "author": "Alexey Kovalev <to.kovalev@gmail.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/kovalev-alexey/images-compression/issues"
